@@ -36,7 +36,7 @@
     <div class="body">
        <h1 class="headline">Görli Balance</h1>
        <input v-model="inputAddress"><br><br>
-       <button class="button-85" role="button" :disabled="disabled" @click="checkBalance">Check</button>
+       <button class="button-85" role="button" :disabled="disabled" @click="checkBalance">Check balance</button>
     </div>
 </template>
 
